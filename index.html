@@ -13,3 +13,9 @@
     </div>
 </body>
 </html>
+<script>
+    // Проверяем, был ли ввод пароля (используем sessionStorage)
+    if (!sessionStorage.getItem("authenticated")) {
+        window.location.href = "login.html";
+    }
+</script>
