@@ -1,1 +1,40 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container, .login-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 600px) {
+    .container, .login-container {
+        margin: 20px;
+        padding: 10px;
+    }
+}
